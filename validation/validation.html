@@ -1,0 +1,90 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Validation Plugin</title>
+</head>
+<body>
+        <h1>April Albaugh</h1>
+        <p>How the plugin works:<br>
+            <br>
+            The jQuery Validation Plugin makes simple clientside form validation 
+            easy. The plugin comes bundled with a useful set of validation 
+            methods, while providing an API (Application Program 
+            Interface specifies how software components should interact) to 
+            write your own methods.
+            <ul>
+                <li>Library of validation methods (such as emails, URLs (the 
+                address of a World Wide Web page), credit card numbers).</li>
+                <li>Place error messages in the DOM (The Document Object Model 
+                    - this means creating a model in which the 
+                    document or web page contains objects (elements, links, 
+                    etc.) that can be manipulated) and show and hide them when 
+                    appropriate.</li>
+                <li>Plugin methods:</li>
+                    validate() – Validates the selected form.<br>
+                    valid() – Checks whether the selected form or selected 
+                        elements are valid.<br>
+                    rules() – Read, add and remove rules for an element.  
+                <li>Custom selectors (selectors are based on CSS3).</li>
+                <li>List of built-in Validation methods: A set of standard 
+                validation methods is provided.</li>
+            </ul>
+            <p>
+            Include these lines in your html page:<br>
+            script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"<br>
+            script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"<br>
+            Your own js file: script src="jqueryvalidation.js" type="text/javascript" charset="utf-8"<br>
+            And other scripts and css that suit your goals.
+            </p>
+        </p>
+        <br>
+        <form id="register" method="post">
+            <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Enter email">
+            </div>
+            <br>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Enter username">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <br>
+            <div>
+                <label for="password">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword"
+                       placeholder="Confirm Password">
+            </div>
+            <br>
+            <div>
+                <button type="submit" value="register new user">Submit</button>
+                <button type="reset" value="reset" id="reset">Reset</button>
+            </div>
+        </form>
+    <br>
+    <a href="https://jqueryvalidation.org/" target="_blank">Link to jQuery Validation Plugin</a>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- jQuery validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="validate.css">
+	<script src="jqueryvalidation.js" type="text/javascript" charset="utf-8"></script>    
+</body>
+</html>
