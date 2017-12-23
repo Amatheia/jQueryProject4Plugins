@@ -1,0 +1,14 @@
+p {
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+ul {
+    padding-left: 4cm;
+    padding-right: 4cm;
+}
+
+.my-error-class {
+    color:red;
+    padding-left: 5px;
+}
